@@ -16,4 +16,12 @@ public class Song {
     public double getSongDuration() {
         return songDuration;
     }
+
+    @Override
+    public String toString() {
+        return "Song{" +
+                "songTitle='" + songTitle + '\'' +
+                ", songDuration=" + songDuration +
+                '}';
+    }
 }
